@@ -1,0 +1,55 @@
+.caja1{
+    background-color: #0098d3;
+    height: 250px;
+    border-radius: 15%;
+    /*width: 250px;*/
+    /*transition: background-color 0.5s linear;           #65ac71*/
+    -webkit-transition: 0.5s linear;
+    transition: 0.5s linear;
+}
+
+.caja1:hover{
+    box-shadow: 11px 17px 17px -3px rgba(255,255,255,1);
+    -webkit-box-shadow: 11px 17px 17px -3px rgba(255,255,255,1);
+    -moz-box-shadow: 11px 17px 17px -3px rgba(255,255,255,1);
+    padding: 30px;
+}
+
+
+div{
+    position: relative;
+    top: 50%;
+    /*left: 50%;
+    margin: -100px 0 0 -100px;*/
+}
+
+.contenedor{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1%;
+}
+
+#cajahms{
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    font-size: 200%;
+    border-radius: 15px;
+}
+
+#cajahms{
+    background-color: transparent;
+    color: azure;
+    border-style: double;
+    border-color: #65ac71;
+}
+
+footer{
+    background-color: transparent;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
